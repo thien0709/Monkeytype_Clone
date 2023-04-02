@@ -10,6 +10,7 @@
     --textColor: #b3b4ab;
     --textIcon: #646669;
     --colorActive:#e2b714;
+    --boxBackground:#2c2e31;
 }
 html{
     background-color: var(--backgroundColor);
@@ -53,6 +54,25 @@ body{
 }
 #content{
     
+}
+#content .selection{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 2rem;
+    background-color: var(--boxBackground);
+    border-radius: 5px;
+    padding: 0 1rem;
+
+}
+#content .selection .a, #content .selection .b, #content .selection .c{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--textIcon);
 }
 #footer{
     
