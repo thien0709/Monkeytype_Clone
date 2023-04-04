@@ -122,7 +122,22 @@ hr {
 }
 #footer .shortcut .test{
     display: flex;
+    padding: .5rem;
 }
 #footer .shortcut .line{
     display: flex;
+}
+#footer .test h5,.line h5{
+  width: 3rem;
+  height: 1rem;
+  background-color: var(--textIcon);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  color: var(--backgroundColor);
+}
+.test h6,.line h6{
+  padding: 0 1rem;
+  color: var(--textIcon);
 }
