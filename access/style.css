@@ -11,6 +11,7 @@
   --textIcon: #646669;
   --colorActive: #e2b714;
   --boxBackground: #2c2e31;
+  --textColorFooter: #5c5e61;
 }
 html {
   background-color: var(--backgroundColor);
@@ -136,8 +137,35 @@ hr {
   align-items: center;
   border-radius: 2px;
   color: var(--backgroundColor);
+  font-size: .7rem;
 }
 .test h6,.line h6{
   padding: 0 1rem;
+  color: var(--textColorFooter);
+}
+.contact{
+  bottom: 1rem ;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact .cont{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.contact .cont div,.contact .ver div{
+  display: flex;
+}
+.contact .cont i,.contact .ver i{
+  padding: 0 .5rem;
   color: var(--textIcon);
+  font-size: .8rem;
+}
+.contact .cont h6,.contact .ver h6{
+ color: var(--textColorFooter);
+}
+.contact .ver{
+display: flex;
 }
